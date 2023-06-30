@@ -42,9 +42,11 @@ const Login = (props) => {
                     {userLogin.password.length < 8 && userLogin.password.length > 0 ? (
                     <p>Password be at least 8 characters</p>
                     ) : null}
-                <button className='btn btn-dark mt-3'>Sign In</button>
-                {/* button color change */}
                 <br />
+                <button className='btn btn-green-custom'>Sign In</button>
+                
+                <br />
+                
                 <Link to={'/register'}>New to Grocery Bag? Register</Link>
             </form>
         </div>
