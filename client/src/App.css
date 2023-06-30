@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.text-green-custom {
+  color: green;
+}
+
+.custom-form-control {
+  width: 200px;
+}
+
+.btn-green-custom {
+  background-color: green;
+  color: #FFFFFF;
+}
+
+.custom-input {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.custom-button {
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.custom-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.delete-button {
+  margin-left: 10px;
+}
