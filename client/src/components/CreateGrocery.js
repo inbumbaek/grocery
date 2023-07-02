@@ -58,7 +58,7 @@ const CreateGrocery = (props) => {
                             null
                     }
                 </div>
-                <button type="submit" className="btn btn-green-custom btn-lg">Add</button>
+                <button type="submit" className="btn btn-green-custom">Add</button>
             </form>
         </div>
     )
