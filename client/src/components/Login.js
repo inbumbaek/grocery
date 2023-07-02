@@ -35,7 +35,7 @@ const Login = (props) => {
                 <label className='form-label text-dark font-weight-bold'>Email: </label>
                 <input className='form-control' type='text' onChange={changeHandler} value={userLogin.email} name='email'/>
                     {userLogin.email.length < 2 && userLogin.email.length > 0 ? (
-                    <p>Email must be at least 2 characters</p>
+                    <p className='text-danger'>Email must be at least 2 characters</p>
                     ) : null}
                 <label className='form-label text-dark font-weight-bold'>Password: </label>
                 <input className='form-control' type='password' onChange={changeHandler} value={userLogin.password} name='password'/>
