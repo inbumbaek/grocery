@@ -40,7 +40,7 @@ const Login = (props) => {
                 <label className='form-label text-dark font-weight-bold'>Password: </label>
                 <input className='form-control' type='password' onChange={changeHandler} value={userLogin.password} name='password'/>
                     {userLogin.password.length < 8 && userLogin.password.length > 0 ? (
-                    <p>Password be at least 8 characters</p>
+                    <p className='text-danger'>Password be at least 8 characters</p>
                     ) : null}
                 <br />
                 <button className='btn btn-green-custom'>Sign In</button>
