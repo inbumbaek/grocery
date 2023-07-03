@@ -49,7 +49,7 @@ const Register = (props) => {
                 </div>
                 <div>
                     {user.lastName.length < 2 && user.lastName.length > 0 ? (
-                        <p>Last Name be at least 2 characters</p>
+                        <p className='text-danger'>Last Name be at least 2 characters</p>
                     ) : null}
                         {errors.lastName ? errors.lastName.message : null}
                 </div>
