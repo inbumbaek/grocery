@@ -69,7 +69,7 @@ const Register = (props) => {
                 </div>
                 <div>
                     {user.password.length < 8 && user.password.length > 0 ? (
-                        <p>Password be at least 8 characters</p>
+                        <p className='text-danger'>Password be at least 8 characters</p>
                     ) : null}
                         {errors.password ? errors.password.message : null}
                 </div>
