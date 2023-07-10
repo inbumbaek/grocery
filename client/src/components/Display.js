@@ -48,7 +48,7 @@ const Display = (props) => {
                                 <td>{grocery.groceryItem}</td>
                                 <td>{grocery.quantity}</td>
                                 <td>
-                                    <Link to={`/updateGrocery/${grocery._id}`} className="btn btn-primary me-2">
+                                    <Link to={`/updateGrocery/${grocery._id}`} className="btn btn-green-custom">
                                         Edit
                                     </Link>
                                     <button onClick={() => deleteHandler(grocery._id)} className="btn btn-danger delete-button">
