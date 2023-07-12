@@ -64,7 +64,7 @@ const EditGrocery = (props) => {
                     <button type="submit" className="btn btn-primary custom-button btn-block">Update</button>
                 </div>
             </form>
-            <a href="/" className="btn btn-green-custom btn-lg mt-3">Back to My Grocery Bag</a>
+            <a href="/" className="btn btn-green-custom mt-3">Back to My Grocery Bag</a>
         </div>
     )
 }
