@@ -51,7 +51,7 @@ const Display = (props) => {
                                     <Link to={`/updateGrocery/${grocery._id}`} className="btn btn-green-custom">
                                         Edit
                                     </Link>
-                                    <button onClick={() => deleteHandler(grocery._id)} className="btn btn-danger delete-button">
+                                    <button onClick={() => deleteHandler(grocery._id)} className="btn btn-green-custom delete-button">
                                         Delete
                                     </button>
                                 </td>
